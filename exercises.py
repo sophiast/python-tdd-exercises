@@ -97,12 +97,7 @@ def test_histogram():
 # ------------------------------------------------------------------------------
 
 def get_word_lengths(s):
-    """
-    Returns a list of integers representing
-    the word lengths in string s.
-    """
-    return None
-
+    list(map(len,s.split()))
 
 def test_get_word_lengths():
     text = "Three tomatoes are walking down the street"
