@@ -6,10 +6,13 @@ def reverse_list(l):
     return None
 
 
-def test_reverse_list():
+def test_reverse_list(mylist):
     #assert reverse_list([1, 2, 3, 4, 5]) == [5, 4, 3, 2, 1]
     #list(reversed(l))
-     reverse_list.reverse()
+     result = []
+     for item in mylist:
+	result.insert(0,item)
+     return result
 
 # ------------------------------------------------------------------------------
 
