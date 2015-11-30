@@ -68,7 +68,7 @@ def count_num_vowels(s):
     for i in range(s):
         if i in vowels:
             count = count + 1
-return count
+    return count
    
     
 
