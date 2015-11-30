@@ -33,11 +33,12 @@ def test_reverse_string():
 # ------------------------------------------------------------------------------
 
 def is_english_vowel(c):
-    """
-    Returns True if c is an english vowel
-    and False otherwise.
-    """
-    return None
+  #  """
+   # Returns True if c is an english vowel
+   # and False otherwise.
+   # """
+   # return None
+	return c.lower() in 'aeiou'
 
 
 def test_is_english_vowel():
