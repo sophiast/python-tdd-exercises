@@ -67,13 +67,7 @@ def count_num_vowels(s):
     #Returns the number of vowels in a string s.
     #"""
     #return None
-	count = 0
-	vowels ='aeiouyAEIOUY'
-	for i in range(s):
-		if in vowels:
-			count = count + 1
-return count
-	
+		
 
 def test_count_num_vowels():
     sentence = "hey ho let's go"
