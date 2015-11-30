@@ -88,8 +88,7 @@ def test_count_num_vowels():
 # ------------------------------------------------------------------------------
 
 def histogram(l):
-    #####    
-
+    return NONE
 
 def test_histogram():
     assert histogram([2, 5, 1]) == '##\n#####\n#'
