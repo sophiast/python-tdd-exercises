@@ -5,7 +5,7 @@ def reverse_list(l):
   #  """
    # return None
      if l:
-		return reverse_list(l[1:])+[l[0]]
+         return reverse_list(l[1:])+[l[0]]
 	else:
 		return []
 
