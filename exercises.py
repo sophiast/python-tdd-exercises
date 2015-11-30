@@ -6,7 +6,7 @@ def reverse_list(l):
    # return None
      if l:
          return reverse_list(l[1:])+[l[0]]
-	else:
+     else:
 		return []
 
 def test_reverse_list():
