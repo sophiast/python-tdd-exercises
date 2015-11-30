@@ -8,7 +8,8 @@ def reverse_list(l):
 
 def test_reverse_list():
     #assert reverse_list([1, 2, 3, 4, 5]) == [5, 4, 3, 2, 1]
-    list(reversed(l))
+    #list(reversed(l))
+     reverse_list.reverse()
 
 # ------------------------------------------------------------------------------
 
