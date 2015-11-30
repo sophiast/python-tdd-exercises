@@ -7,7 +7,7 @@ def reverse_list(l):
      if l:
          return reverse_list(l[1:])+[l[0]]
      else:
-		return []
+         return []
 
 def test_reverse_list():
     assert reverse_list([1, 2, 3, 4, 5]) == [5, 4, 3, 2, 1]
