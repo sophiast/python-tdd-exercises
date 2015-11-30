@@ -1,10 +1,13 @@
 
 def reverse_list(l):
-    """
-    Reverses order of elements in list l.
-    """
-    return None
-
+#    """
+ #   Reverses order of elements in list l.
+  #  """
+   # return None
+	if l:
+		return reverse(l[1:])+[l[0]]
+	else:
+		return []
 
 def test_reverse_list():
     assert reverse_list([1, 2, 3, 4, 5]) == [5, 4, 3, 2, 1]
