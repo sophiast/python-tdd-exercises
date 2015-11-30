@@ -63,10 +63,17 @@ def test_is_english_vowel():
 # ------------------------------------------------------------------------------
 
 def count_num_vowels(s):
-    """
-    Returns the number of vowels in a string s.
-    """
-    return None
+#    """
+ #   Returns the number of vowels in a string s.
+  #  """
+   # return None
+	count = 0
+	vowels = 'aeiouyAEIOUY'
+	for i in range(s):
+		if i in vowels:
+			count = count + 1
+return count
+
 
 
 def test_count_num_vowels():
