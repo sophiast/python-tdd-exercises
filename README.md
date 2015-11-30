@@ -2,7 +2,7 @@
 
 ## Make these badges green
 
-[![Build Status](https://travis-ci.org/bast/python-tdd-exercises.svg?branch=master)](https://travis-ci.org/bast/python-tdd-exercises/builds)
+[![Build Status](https://travis-ci.org/sophiast/python-tdd-exercises.svg?branch=master)](https://travis-ci.org/bast/python-tdd-exercises/builds)
 [![Coverage Status](https://coveralls.io/repos/bast/python-tdd-exercises/badge.png?branch=master)](https://coveralls.io/r/bast/python-tdd-exercises?branch=master)
 
 After you fork, edit this `README.md` and rename "bast" to your GitHub username
