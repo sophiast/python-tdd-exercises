@@ -97,7 +97,7 @@ def test_histogram():
 # ------------------------------------------------------------------------------
 
 def get_word_lengths(s):
-    [len(x) for x in s.split()]
+    len(x) for x in s.split()
         return len(x)
 
 def test_get_word_lengths():
