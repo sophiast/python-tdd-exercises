@@ -69,7 +69,7 @@ def count_num_vowels(s):
                 count = count + 1
 return count
    
-		
+    
 
 def test_count_num_vowels():
     sentence = "hey ho let's go"
