@@ -13,10 +13,14 @@ def test_reverse_list():
 # ------------------------------------------------------------------------------
 
 def reverse_string(s):
-    """
-    Reverses order of characters in string s.
-    """
-    return None
+   # """
+   # Reverses order of characters in string s.
+   # """
+   # return None
+	if len(s) <=1:
+		return s
+	
+	return reverse(s[1:]) + s[0]
 
 
 def test_reverse_string():
