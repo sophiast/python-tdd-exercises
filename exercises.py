@@ -65,8 +65,8 @@ def test_is_english_vowel():
 def count_num_vowels(s):
     count = 0
     vowels = 'aeiouyAEIOUY'
-    for i in range(s):
-        if i in vowels:
+    for letter in s:
+        if letter in vowels:
             count = count + 1
     return count
    
