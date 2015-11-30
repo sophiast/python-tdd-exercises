@@ -17,10 +17,10 @@ def reverse_string(s):
    # Reverses order of characters in string s.
    # """
    # return None
-	if len(s) <=1:
+	if s == "":
 		return s
-	
-	return reverse(s[1:]) + s[0]
+	else:
+		return reverse_string(s[1:]) + s[0]
 
 
 def test_reverse_string():
