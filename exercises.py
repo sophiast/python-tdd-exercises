@@ -88,10 +88,7 @@ def test_count_num_vowels():
 # ------------------------------------------------------------------------------
 
 def histogram(l):
-    """
-    Converts a list of integers into a simple string histogram.
-    """
-    return None
+    
 
 
 def test_histogram():
